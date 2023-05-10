@@ -18,6 +18,7 @@ export class AppService {
       params: {
         apiKey: this.apiKey,
         ingredients,
+        ranking: 1,
       },
     }).toPromise();
 

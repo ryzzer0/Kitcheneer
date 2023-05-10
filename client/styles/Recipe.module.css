@@ -1,0 +1,74 @@
+.container {
+    background-color: #F9F6F0;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logoWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .logo {
+    max-width: 200px;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  .recipeDetails {
+    margin-top: 2rem;
+  }
+  
+  .recipeTitle {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .recipeSummary {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .badgeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .dishTypeBadge {
+    margin-right: 4px;
+    margin-bottom: 4px;
+  }
+  
+  .recipeImage {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+
+  .centeredContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+  }
+
+  .foodista{
+    margin-top: 9%;
+  }
+
+  .recipeCard{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+    background-color: #EEEADD;
+    color: #2E2B22;
+  }

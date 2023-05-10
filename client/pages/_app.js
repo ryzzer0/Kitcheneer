@@ -1,12 +1,21 @@
 import "../styles/globals.css";
-import SearchBar from "../components/SearchBar";
+import Head from 'next/head';
+import { MantineProvider } from '@mantine/core';
+import { CustomFonts } from '../components/CustomFont';
 
 function MyApp({ Component, pageProps }) {
   return (
+    <MantineProvider
+    theme={{
+      lineHeight: '1.2',
+      fontFamily: 'Space Grotesk, sans-serif',
+    }}
+  >
+    <CustomFonts />
     <div className="container">
-      <SearchBar />
       <Component {...pageProps} />
     </div>
+  </MantineProvider>
   );
 }
 
